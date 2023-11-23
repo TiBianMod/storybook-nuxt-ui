@@ -1,10 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
 ## Setup
-
-Make sure to install the dependencies:
 
 ```bash
 # npm
@@ -20,56 +14,15 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Let's test the `main` branch first
+run `storybook` script
+> Local components and components from Nuxt as we can see, they're working correctly.
 
-Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
+## Let's switch to `nuxt-ui` branch now
+install deps
 
-# pnpm
-pnpm run dev
+run `storybook` script
 
-# yarn
-yarn dev
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+> you can test also the `@nuxt/ui-pro`, same issues also there
