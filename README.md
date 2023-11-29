@@ -14,15 +14,14 @@ yarn install
 bun install
 ```
 
-## Let's test the `main` branch first
+## Test the `main` branch first
 run `storybook` script
 > Local components and components from Nuxt as we can see, they're working correctly.
 
 
-## Let's switch to `nuxt-ui` branch now
+## Switch to `nuxt-icon` branch
 install deps
 
 run `storybook` script
 
-
-> you can test also the `@nuxt/ui-pro`, same issues also there
+> and boom !!!!
